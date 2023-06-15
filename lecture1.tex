@@ -420,7 +420,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % href stuff
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\urllink}[2]{\href{#1}{\cnordEleven{\uline{#2}}}}
+\newcommand{\urllink}[2]{\href{#1}{\textcolor{SlateGray}{\uline{#2}}}}
 
 \newcommand{\myemail}[2]{\href{#1}{\cnordTwelve{{\scriptsize\faEnvelope[regular]~}\uline{#2}}}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1798,7 +1798,7 @@ urlcolor={citationcolor}
 \begin{center} 
 
 
-{\large \myDefinitionIcon Syllabus} \doublerulefill
+{ \myDefinitionIcon Syllabus} \doublerulefill
 
 \begin{compactitem}
 \footnotesize
@@ -1823,7 +1823,7 @@ urlcolor={citationcolor}
 \begin{center} 
 
 
-{\large \myDefinitionIcon Conventions} \doublerulefill
+{\myDefinitionIcon Conventions} \doublerulefill
 
 \begin{compactitem}
 \footnotesize
@@ -1908,7 +1908,7 @@ urlcolor={citationcolor}
 \vspace*{\fill}
 \begin{center} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-{\large \mydefinition Shell} \doublerulefill
+{\mydefinition Shell} \doublerulefill
 
 \emph{A program which takes keyboard commands and passes them to the OS to carry out.}
 
@@ -1933,7 +1933,7 @@ urlcolor={citationcolor}
 \vspace*{\fill}
 \begin{center} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-{\large \mydefinition Terminal} \doublerulefill
+{\mydefinition Terminal} \doublerulefill
 
 \emph{A text window program that runs a shell (BASH shell in Ubuntu).}
 \begin{compactitem}
@@ -1983,7 +1983,7 @@ urlcolor={citationcolor}
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mydefinition bashrc File} \doublerulefill
+{\mydefinition bashrc File} \doublerulefill
 
 \myFile{bashrc} \emph{ is a hidden bash script located in your home directory and runs whenever it is started interactively. It initializes an interactive shell session. In other words, everything in this script is executed when you open a terminal.}
 
@@ -2067,7 +2067,7 @@ function greeting () {
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mycodesyntax Functions} \doublerulefill
+{\mycodesyntax Functions} \doublerulefill
 
 \emph{Passing arguments to a function.}
 
@@ -2104,7 +2104,7 @@ test(){
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mycodesyntax Function Selection} \doublerulefill
+{\mycodesyntax Function Selection} \doublerulefill
 
 \emph{You can give the user a choice of the function to execute when you open a terminal}
 
@@ -2150,7 +2150,7 @@ select_function
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mydefinition Aliases} \doublerulefill
+{\mydefinition Aliases} \doublerulefill
 
 \emph{Bash aliases are essentially shortcuts that can save you from having to remember or type long commands.}
 
@@ -2187,7 +2187,7 @@ alias identifier="value"
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mynote source Command} \doublerulefill
+{\mynote Bash Command: \textbf{source}} \doublerulefill
 
 
 If you modify \myFile{bashrc} with a terminal already opened, your modifications will not automatically take effect in the current terminal.
@@ -2213,7 +2213,7 @@ If you modify \myFile{bashrc} with a terminal already opened, your modifications
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mydefinition} \doublerulefill
+{\mydefinition ROS} \doublerulefill
 
 {\emph{ROS is not really an operating system (OS) but more like a software development kit (SDK). According to Brian Gerkey\footnote{\tiny{\url{https://answers.ros.org/question/12230/what-is-ros-exactly-middleware-framework-operating-system/}}}, ROS is a combination of plumbing, tools, capabilities, and ecosystem.}}
 
@@ -2237,7 +2237,7 @@ If you modify \myFile{bashrc} with a terminal already opened, your modifications
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mynote Resources} \doublerulefill
+{\mynote Resources} \doublerulefill
 
 \begin{compactitem}
     \item Official website: \urllink{http://wiki.ros.org/}{http://wiki.ros.org/}
@@ -2257,7 +2257,7 @@ If you modify \myFile{bashrc} with a terminal already opened, your modifications
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mynote ROS1: Drawbacks} \doublerulefill
+{\mynote ROS1: Drawbacks} \doublerulefill
 
 \begin{compactitem}
     \item ROS1 was mainly developed for the academic research community in 2007 by Willow Garage.
@@ -2278,7 +2278,7 @@ If you modify \myFile{bashrc} with a terminal already opened, your modifications
 \begin{frame}[fragile]{\secsec}
 \vspace*{\fill}
 \begin{center} 
-{\large \mynote ROS1: Missing Use Cases} \doublerulefill
+{\mynote ROS1: Missing Use Cases} \doublerulefill
 
 
    \begin{compactitem}
@@ -2297,7 +2297,7 @@ If you modify \myFile{bashrc} with a terminal already opened, your modifications
 \begin{frame}[fragile]{\secsec}
 \vspace*{\fill}
 \begin{center} 
-{\large \mynote ROS2: Overview} \doublerulefill
+{\mynote ROS2: Overview} \doublerulefill
 
 \begin{itemize}
     \item ROS2 is not built on top of ROS1. ROS developers wanted ROS1 as it exists today to keep working and be unaffected by the development of ROS2. \item The API in ROS2 has been modified since most of the code in ROS1 is from 2007-2009.
@@ -2327,7 +2327,7 @@ If you modify \myFile{bashrc} with a terminal already opened, your modifications
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mynote DDS: Data Distributed Service} \doublerulefill
+{\mynote DDS: Data Distributed Service} \doublerulefill
 
 
 \begin{itemize}
@@ -2350,7 +2350,7 @@ If you modify \myFile{bashrc} with a terminal already opened, your modifications
 %=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 \vspace*{\fill}
 \begin{center} 
-{\large \mytodo Check DDS Version} \doublerulefill
+{\mytodo Check DDS Version} \doublerulefill
 
 \begin{enumerate}
 \small
@@ -2387,6 +2387,28 @@ If you modify \myFile{bashrc} with a terminal already opened, your modifications
 
 
 %=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+\subsubsection*{Extensions}
+%=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+\begin{frame}[fragile]{\secsecsec}
+%=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+\vspace*{\fill}
+\begin{center} 
+
+{\mytodo Install Extensions for VS Code} \doublerulefill
+
+    \begin{compactitem}
+        \item \urllink{https://marketplace.visualstudio.com/items?itemName=ms-iot.vscode-ros}{ROS}
+        \item \urllink{https://marketplace.visualstudio.com/items?itemName=twxs.cmake}{CMake}
+        \item \urllink{ext install donjayamanne.python-extension-pack}{Python Extension Pack}
+    \end{compactitem}
+
+\end{center}
+\vspace*{\fill}
+\end{frame}
+
+
+
+%=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 \subsubsection*{Colcon}
 %=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 \begin{frame}[fragile]{\secsecsec}
@@ -2394,15 +2416,7 @@ If you modify \myFile{bashrc} with a terminal already opened, your modifications
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mytodo Install Extensions for VS Code} \doublerulefill
-
-    \begin{compactitem}
-        \item \urllink{https://marketplace.visualstudio.com/items?itemName=ms-iot.vscode-ros}{ROS}
-        \item \urllink{https://marketplace.visualstudio.com/items?itemName=twxs.cmake}{CMake}
-    \end{compactitem}
-
-
-{\large \mytodo Install Colcon} \doublerulefill
+{\mytodo Install \textbf{colcon}} \doublerulefill
 
 \emph{\urllink{https://colcon.readthedocs.io/en/released/}{colcon} is a command line tool to improve the workflow of building, testing and using multiple software packages.}
 
@@ -2485,18 +2499,18 @@ eval "$(register-python-argcomplete3 colcon)"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-{\large \mydefinition Node} \doublerulefill
+{\mydefinition Node} \doublerulefill
 
-\large \emph{A \urllink{http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes}{Node} is a small program written in Python or \CC that executes some relatively simple task or process. Nodes are usually categorized into Publishers (send data) and Subscribers (receive data).} 
+\emph{A \urllink{http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes}{Node} is a small program written in Python or \CC that executes some relatively simple task or process. Nodes are usually categorized into Publishers (send data) and Subscribers (receive data).} 
 
 
-{\large \mydefinition Topic} \doublerulefill
+{\mydefinition Topic} \doublerulefill
 
-\large \emph{A \urllink{http://wiki.ros.org/Topics}{Topic} is a named bus\footnote{A communication system that transfers data between components inside a computer or between computers} over which Nodes exchange Messages.}
+\emph{A \urllink{http://wiki.ros.org/Topics}{Topic} is a named bus\footnote{A communication system that transfers data between components inside a computer or between computers} over which Nodes exchange Messages.}
 
-{\large \mydefinition Message} \doublerulefill
+{\mydefinition Message} \doublerulefill
 
-\large \emph{A \urllink{http://wiki.ros.org/Messages}{Message} is a packet of data (a simple data structure comprising typed fields).}
+\emph{A \urllink{http://wiki.ros.org/Messages}{Message} is a packet of data (a simple data structure comprising typed fields).}
 
 \vspace*{\fill}
 \end{frame}
@@ -2519,6 +2533,8 @@ Analogy from \urllink{https://www.skillshare.com/profile/Edouard-Renard/69057828
 \begin{center} 
 Publishers and subscribers must work with the same Message type.
 
+\hrulefill
+
 \includegraphics[width=.7\linewidth]{figures/lecture2/analogy2.pdf}
 
 \end{center}
@@ -2531,6 +2547,8 @@ Publishers and subscribers must work with the same Message type.
 \vspace*{\fill}
 \begin{center} 
 Publishers and subscribers must work with the same Topic name.
+
+\hrulefill
 
 \includegraphics[width=.7\linewidth]{figures/lecture2/analogy3.pdf}
 
@@ -2545,6 +2563,8 @@ Publishers and subscribers must work with the same Topic name.
 \begin{center} 
 The goal of Publishers is to only send Messages to Topics.
 
+\hrulefill
+
 \includegraphics[width=.7\linewidth]{figures/lecture2/analogy4.pdf}
 
 \end{center}
@@ -2557,6 +2577,8 @@ The goal of Publishers is to only send Messages to Topics.
 \vspace*{\fill}
 \begin{center} 
 The goal of Subscribers is to only receive Messages from Topics.
+
+\hrulefill
 
 \includegraphics[width=.7\linewidth]{figures/lecture2/analogy5.pdf}
 
@@ -2571,6 +2593,8 @@ The goal of Subscribers is to only receive Messages from Topics.
 \vspace*{\fill}
 \begin{center} 
 There can be multiple Subscribers to a Topic. 
+
+\hrulefill
 
 \begin{compactitem}
 \footnotesize
@@ -2590,6 +2614,8 @@ There can be multiple Subscribers to a Topic.
 \vspace*{\fill}
 \begin{center} 
 There can be multiple Publishers to the same Topic. 
+
+\hrulefill
 
 \begin{compactitem}
 \footnotesize
@@ -2611,6 +2637,8 @@ There can be multiple Publishers to the same Topic.
 \begin{center} 
 A Publisher can publish to different Topics.
 
+\hrulefill
+
 \includegraphics[width=.8\linewidth]{figures/lecture2/analogy8.pdf}
 
 \end{center}
@@ -2625,6 +2653,8 @@ A Publisher can publish to different Topics.
 \begin{center} 
 A Node can be both a Publisher and a Subscriber.
 
+\hrulefill
+
 \includegraphics[width=.7\linewidth]{figures/lecture2/analogy9.pdf}
 
 \end{center}
@@ -2637,7 +2667,7 @@ A Node can be both a Publisher and a Subscriber.
 \begin{frame}[fragile]{\secsec}
 \vspace*{\fill}
 
-{\large \mynote Summary} \doublerulefill
+{\mynote Summary} \doublerulefill
 
 \begin{center} 
 
@@ -2661,7 +2691,7 @@ A Node can be both a Publisher and a Subscriber.
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mynote} \doublerulefill
+{\mynote Running Nodes} \doublerulefill
 
 There are mainly 2 ways to run Nodes in ROS.
 
@@ -2682,11 +2712,11 @@ There are mainly 2 ways to run Nodes in ROS.
 \begin{center} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-{\large \mytodo Run only a single Node} \doublerulefill
+{\mytodo Run only a single Node} \doublerulefill
 
 \myTool{ros2 run <package> <executable>} --  <package> is the name of a ROS package and <executable> is the name of the executable from <package>.
 
-\mynote An executable in \CC is the machine code of your program (after compiling and linking the source code). An executable in Python is a Python script (usually a \myFile{*.py} file) or a file generated from a Python script.
+\mynote An executable in \CC is the machine code of your program (after compiling and linking the source code). An executable in Python is a Python script (usually a \myFile{*.py} file) or an executable generated from \myFile{setup.py}.
 
 \hrulefill
 
@@ -2708,7 +2738,7 @@ There are mainly 2 ways to run Nodes in ROS.
 \begin{center} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-{\large \mytodo Run a launch file} \doublerulefill
+{\mytodo Run a launch file} \doublerulefill
 
 \myTool{ros2 launch <package> <launch file name>} --  <package> is the name of a ROS package and <launch file name> is the name of a launch file which belongs to <package>.
 
@@ -2734,7 +2764,7 @@ There are mainly 2 ways to run Nodes in ROS.
 \begin{center} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-{\large \myinfo Introspect Nodes and Topics} \doublerulefill
+{\myinfo Introspect Nodes and Topics} \doublerulefill
 
 
 \hrulefill
@@ -2772,11 +2802,11 @@ There are mainly 2 ways to run Nodes in ROS.
 \begin{frame}[fragile]{\sec}
 \vspace*{\fill}
 \begin{center} 
-{\large \mydefinition Workspace} \doublerulefill
+{\mydefinition Workspace} \doublerulefill
 
-{\large \emph{A ROS workspace is a folder where you write all packages  needed to build a ROS2 application.}}
+\emph{A ROS workspace is a folder where you write all packages  needed to build a ROS2 application.}
 
-{\large \mytodo} \doublerulefill
+{\mytodo Create a Workspace} \doublerulefill
 
 \begin{compactitem}
 \item Create a workspace anywhere you want and give it a name of your choice.
@@ -2787,7 +2817,7 @@ There are mainly 2 ways to run Nodes in ROS.
 \item Build the workspace: \myTerminal{cd \textasciitilde/nist_ws} followed with \myTerminal{colcon build}
 \begin{compactitem}
 \item \mywarning You have to be in the root folder of the workspace to build it.
-\item \mynote The build process looks at packages inside \myFolder{src}  and build them. As of now, there is no package in \myFolder{src} but some folders are generated.
+\item \mynote The build process looks at packages inside \myFolder{src}  and build them. As of now, there is no package in \myFolder{src} but some folders are still generated.
 \end{compactitem}
 \end{compactitem}
 \end{center}
@@ -2854,7 +2884,6 @@ products for each package. For instance, object files are created in this folder
 
 
 \begin{compactitem}
-\footnotesize
 \item Edit \myFile{bashrc}
     \begin{bashScriptListLine}
 source /opt/ros/galactic/setup.bash
@@ -2889,14 +2918,14 @@ eval "$(register-python-argcomplete3 colcon)"
 \begin{frame}[fragile]{\sec}
 \vspace*{\fill}
 \begin{center} 
-{\large \mydefinition Package} \doublerulefill
+{\mydefinition Package} \doublerulefill
 
 {\emph{Software in ROS is organized in packages. A package contains anything that logically constitutes a useful module. The goal of these packages it to provide this useful functionality in an easy-to-consume manner so that software can be easily reused.}}
 
 \hrulefill
 
 \begin{compactitem}
-\footnotesize
+
 \item Package creation in ROS2 uses \myTool{ament} as its build system and \myTool{colcon} as its build tool. 
 \item  \myTool{ament} is an evolution of \myTool{catkin}
 \item \myTool{ament} is a meta build system to improve building applications which are split into separate packages. It consists of two major parts:
@@ -2919,7 +2948,7 @@ eval "$(register-python-argcomplete3 colcon)"
 \begin{frame}[fragile]{\secsec}
 \vspace*{\fill}
 \begin{center} 
-{\normalsize \mytodo Create the \CC package \myROSPackage{first_package_cpp}} \doublerulefill
+{\mytodo Create the \CC package \myROSPackage{first_package_cpp}}
 
 \begin{compactitem}
     \small
@@ -3009,7 +3038,7 @@ eval "$(register-python-argcomplete3 colcon)"
 \vspace*{\fill}
 \begin{center} 
 
-{\normalsize \mytodo Create the Python package \mypackageNormal{first_package_py}} \doublerulefill
+{\mytodo Create the Python package \mypackageNormal{first_package_py}}
 
 \myreminder Packages are created in \mydirNormal{\textasciitilde/nist_ws/src}
 
@@ -3089,7 +3118,7 @@ eval "$(register-python-argcomplete3 colcon)"
 \vspace*{\fill}
 \begin{center} 
 
-{\large \mynote Python Packages} \doublerulefill
+{\mynote Python Packages} \doublerulefill
 
 \begin{itemize}
     \item You can execute Python Nodes without building the Python package. However, when a package is built, colcon installs the Python scripts in a place where they can find other modules from other packages, where they can be found by other scripts. It will also allow you to start a node with \myTool{ros2 run}, add it in a launch file, pass parameters to it, etc.
@@ -3112,7 +3141,7 @@ eval "$(register-python-argcomplete3 colcon)"
 \begin{center} 
 
 
-{\normalsize \mytodo Create a package for both \CC and  Python:~ \myROSPackage{first_package}} \doublerulefill
+{\mytodo Create a package for both \CC and  Python:~ \myROSPackage{first_package}} 
 
 \hrulefill
 
@@ -3472,31 +3501,31 @@ ROS-compliant package's root folder.}
 %%%%%%%%%%%%%%%%%%
 %   --- FRAME
 %%%%%%%%%%%%%%%%%%
-\section{Function for Sourcing a Specific Package}
-\begin{frame}[fragile]{\sec}
-\vspace*{\fill}
-\begin{center} 
+% \section{Function for Sourcing a Specific Package}
+% \begin{frame}[fragile]{\sec}
+% \vspace*{\fill}
+% \begin{center} 
 
-\begin{bashScriptList}
-# define the function
-function enpm663(){
-  source /opt/ros/galactic/setup.zsh
-  cd /home/zeid/dev/nist_ws
-  source install/setup.zsh
-  export _colcon_cd_root=/home/zeid/dev/nist_ws
-  source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh
-  source /usr/share/colcon_cd/function/colcon_cd.sh
-  eval "$(register-python-argcomplete3 ros2)"
-  eval "$(register-python-argcomplete3 colcon)"
-}
+% \begin{bashScriptList}
+% # define the function
+% function enpm663(){
+%   source /opt/ros/galactic/setup.zsh
+%   cd /home/zeid/dev/nist_ws
+%   source install/setup.zsh
+%   export _colcon_cd_root=/home/zeid/dev/nist_ws
+%   source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh
+%   source /usr/share/colcon_cd/function/colcon_cd.sh
+%   eval "$(register-python-argcomplete3 ros2)"
+%   eval "$(register-python-argcomplete3 colcon)"
+% }
 
-# call the function
-enpm663
-\end{bashScriptList}
+% # call the function
+% enpm663
+% \end{bashScriptList}
 
-\end{center}
-\vspace*{\fill}
-\end{frame}
+% \end{center}
+% \vspace*{\fill}
+% \end{frame}
 
 
 
